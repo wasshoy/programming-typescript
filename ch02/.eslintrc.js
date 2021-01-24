@@ -1,3 +1,4 @@
+// ESlintの設定
 module.export = {
     root: true,  // このファイルがある場所がプロジェクトのルートかどうか
     parser: '@typescript-eslint/parser',  // eslintがTSを理解できるようにパッケージを指定
