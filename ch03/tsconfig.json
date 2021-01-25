@@ -1,0 +1,12 @@
+{  // tsconfig.jsonはプロジェクトのルートディレクトリに置く必要あり（場所変更も可能）
+    "include": [  // TSCがコンパイルするTSファイルの格納場所
+        "src"
+    ],
+    "compilerOptions": {  // コンパイルの設定
+        "lib": ["es2015"],  // 実行環境に存在するAPIの種類
+        "module": "commonjs",  // コンパイル先のモジュールシステムの種類
+        "outDir": "dist",  // 生成するJSコードの格納先
+        "strict": true,  // 厳密なチェック
+        "target": "es2015"  // コンパイル先のJSのバージョン
+    },
+}
